@@ -37,7 +37,7 @@ py manage.py runserver
 호스트 허용 설정
 setting.py에서 ALLOWED_HOSTS = ['*'] 
 
-##########################################################
+-------------------------------------------------------
  아파치 및 wsgi 설치
   
 
@@ -45,7 +45,7 @@ sudo apt-get install apache2
  mod-wsgi 설치
 sudo apt install libapache2-mod-wsgi-py3
 
-##########################################################
+-------------------------------------------------------------
  conf파일 설정
 
 
@@ -57,8 +57,8 @@ sudo vim 000-default.conf
         ServerAdmin webmaster@localhost
         DocumentRoot /var/www/html
 
-				ErrorLog ${APACHE_LOG_DIR}/error.log
-				CustomLog ${APACHE_LOG_DIR}/access.log combined
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
 
         alias /static /home/sk/Ticketing-master/movieticket/assets
         alias /media /home/sk/Ticketing-master/movieticket/media
