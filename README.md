@@ -89,7 +89,7 @@ sudo service apache2 restart
 
 1. 가상머신을 bridge 방식으로 설정. 
 
-# bridge방식 = ip 주소를 호스트 pc 에게서 받는게 아닌 
+ bridge방식 = ip 주소를 호스트 pc 에게서 받는게 아닌 
 
 공유기로부터 직접 받아 호스트 pc와 동등한 ip 주소를 할당 받는 방식
 
