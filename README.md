@@ -1,4 +1,4 @@
-# MOVIE-Tickets-Booking-Website
+# MOVIE-Tickets-Booking-Website 오픈소스 
 Movie tickets booking website using Django (Python Web framework).  
 
 # 장고 & 아파치 설치 및 연동, ubuntu 20.04 버전
