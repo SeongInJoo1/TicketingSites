@@ -1,6 +1,6 @@
 # MOVIE-Tickets-Booking-Website
 Movie tickets booking website using Django (Python Web framework).  
-깃허브 오픈소스 활용
+오픈소스 활용
 
 # 장고 & 아파치 설치 및 연동, ubuntu 20.04 버전
 1. #환경설정
